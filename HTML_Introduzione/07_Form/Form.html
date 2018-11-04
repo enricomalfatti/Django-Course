@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="it" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>I Forms</title>
+    </head>
+    <body>
+        <h1> I Forms</h1>
+        <!-- action definisce l'url a cui invio i dati del form. se non metto niente, l'url di default è lo stesso in cui sta operando il form -->
+        <!-- GET e POST sono i metodi principali (uso GET per dati non sensibili poichè compaiono nell'url mentre uso POST per dati sensibili) -->
+        <!-- name è un riferimento che diamo al server per l'elaborazione del tipo che gli diamo in input -->
+        <form action="https://www.google.it" method="get">
+            <!-- label TIPO1 è un TAG che uso per sui tag di tipo input per definire una etichetta  -->
+            <label>Username: <input title="Nome Utente" type="text" name="mio_nome" placeholder="username"> </label>
+            <!-- label TIPO2 + usato.. specifico un attributo id nel tag input a cui voglio dare una label e poi richiamo l'id nell'attributo for della label -->
+            <label for="mail"> Email</label>
+            <input title="Email" id="mail" type="email" name="mia_mail" placeholder="email@domain.org">
+            <input title="Password" type="password" name="mia_password" placeholder="password">
+            <!-- value mi da un valore di default al tipo di input inserito -->
+            <!-- placeholder è meglio di value perchè non devo cancellare il valore di default prima di mettere il mio input -->
+            <input type="submit" name="" value="ENTRA">
+
+        </form>
+
+    </body>
+</html>

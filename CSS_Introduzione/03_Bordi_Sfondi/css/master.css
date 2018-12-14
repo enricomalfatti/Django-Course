@@ -1,0 +1,23 @@
+/*body{
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoQEi5EN-on4qEe8QVBbSt3znSxqj5mEQDL1jg1WlT0vJ1JOGmvQ);
+    background-repeat: no-repeat;
+}
+*/
+h1{
+    background-color: #84DCC6;
+}
+
+div{
+    background-color: #A5FFD6;
+/*  border-width: thick;
+    border-style: inset;
+    border-color: #84DCC6
+*/
+    border: thick inset #84DCC6;  /*scrittura compatta in una riga delle 3 proprietà sopra*/
+}
+
+span{
+    background-color: #FFA69E;
+    border-width: 1px;
+    border-style: groove;
+}

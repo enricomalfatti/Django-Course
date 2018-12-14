@@ -1,0 +1,30 @@
+h1{
+    color: #153bd6;
+
+}
+h2{
+    color: #f1f413;
+
+}
+h3{
+
+}
+h4{
+    color: rgba(0,222, 0, 0.4);
+
+}
+h5{
+
+}
+p{
+    color: rgb(214, 20, 30);
+    border: double;
+
+}
+/* tutto le proprietà che non sono spedificate nei tag (es h1, h2) prendono il valore che definisco
+dentro il tag body*/
+body{
+    background: #aa00ff;
+    color: #ffffff;
+    border: double;
+}

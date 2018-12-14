@@ -1,3 +1,11 @@
 p {
-    color: green;
+    color: #000000; /*colore in formato esadecimale*/
+    background: rgb(00,255,00); /*colore in formato rbg*/
+
+    /*rgba ha un canale in piu da 0.0 a 1.0 che identifica la trasparenza */
+}
+
+h2 {
+
+    color: rgba(0,0,0,0.5);
 }

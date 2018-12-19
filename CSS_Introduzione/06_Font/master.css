@@ -1,0 +1,9 @@
+body{
+    font-family: 'Charm', cursive;
+    font-style: normal;
+    font-size: 15PX;
+
+    text-align: center;
+    /*PER I FONT SI UNA ANCHE COME UNITÀ DI MISURA [em]. È DINAMICA E DIPENDE DALLA GRANDEZZA DI DEFAUL DEL BROWSER. AD ESEMPIO 1em = 16px*/
+
+}

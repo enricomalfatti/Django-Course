@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+h3{
+    text-align: center;
+    border: 2px solid grey;
+}
+
+.color{
+    width: 20%;
+    height: 500px;
+    display: inline-block;
+    vertical-align: bottom;
+    text-align: center;
+    padding-top: 430px;
+
+}
+
+#box1{
+    background-color: #140E00;
+}
+#box2{
+    background-color: #D6A506;
+}
+#box3{
+    background-color: #B7254C;
+}
+#box4{
+    background-color: #A0815B;
+}
+#box5{
+    background-color: #F7F9F9;
+}
+p:hover {
+    color: blue;
+}
